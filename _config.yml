@@ -24,9 +24,9 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
-    url: 
+  #- title: twitter
+   # url: 
   - title: github
-    url: https://https://github.com/deepCLEM
-  - title: linkedin
-    url: 
+    url: https://github.com/deepCLEM
+  #- title: linkedin
+   # url: 
