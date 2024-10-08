@@ -3,10 +3,11 @@
 {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
-    <br/><br/>
-    <h2>Principal Investigators</h2>
-    <br/>
     <div class="content-section-a">
+
+        <br/><br/>
+        <h1>Principal Investigators</h1>
+        <br/>
 
         <div class="container">
 
@@ -14,7 +15,7 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">[Biagio Mandracchia](https://bmandracchia.github.io/)</h2>
+                    <h2 class="section-heading"><a href="https://bmandracchia.github.io/">Biagio Mandracchia</a></h2>
                     <div class="lead">Hello! I am Biagio Mandracchia, a Ramón y Cajal Research Fellow at the University of Valladolid. 
                         My primary research interest lies in the field of fluorescence microscopy and image restoration. 
                         Over the years, I have dedicated my efforts to developing innovative techniques aimed at enhancing the clarity and quality of microscopic images. 
@@ -33,7 +34,7 @@
     <!-- /.content-section-a -->
     {% else %}
 
-    <div class="content-section-b">
+    <div class="content-section-a">
 
         <div class="container">
 
