@@ -31,4 +31,4 @@ social:
   - title: github
     url: https://github.com/deepCLEM
   - title: send
-    mailto: "{{ site.email }}"
+    url: https://lpi.tel.uva.es
