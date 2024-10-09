@@ -9,7 +9,7 @@ author: deepCLEM
 description: > # "Write an awesome description for your new site here. 
   Deep Learning-aided label-free Correlative Light Electron Microscopy.
 copyright: 'Copyright &copy; 2024 deepCLEM. All Rights Reserved.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+credits: '<a href="https://lpi.tel.uva.es/">Laboratorio de Procesado de Imagen</a>. ETSI de Telecomunicación. Universidad de Valladolid'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -29,4 +29,4 @@ social:
   - title: github
     url: https://github.com/deepCLEM
   - title: send
-    url:  
+    mailto: rmenchon@dlpi.tel.uva.es  
