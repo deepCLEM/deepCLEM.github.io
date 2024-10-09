@@ -9,8 +9,9 @@ author: deepCLEM
 description: > # "Write an awesome description for your new site here. 
   Deep Learning-aided label-free Correlative Light Electron Microscopy.
 copyright: 'Copyright &copy; 2024 deepCLEM. All Rights Reserved.'
-credits: '<a href="https://lpi.tel.uva.es/">Laboratorio de Procesado de Imagen (LPI)</a> <br/> ETSI de Telecomunicación. Universidad de Valladolid. 
-          <br/> Paseo Belén, 15 47011 Valladolid, Spain.'
+credits: '<a href="https://lpi.tel.uva.es/">Laboratorio de Procesado de Imagen (LPI)</a> 
+  <br/> ETSI de Telecomunicación. Universidad de Valladolid. 
+  <br/> Paseo Belén, 15. 47011 Valladolid, Spain.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -30,4 +31,4 @@ social:
   - title: github
     url: https://github.com/deepCLEM
   - title: send
-    mailto: rmenchon@dlpi.tel.uva.es  
+    url: rmenchon@dlpi.tel.uva.es  
