@@ -31,7 +31,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro_deepCLEM.png) no-repeat center center;
+    background: url(../../img/banner-deepCLEM.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -47,6 +47,7 @@ h6 {
     font-size: 5em;
 }
 
+/*!
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
@@ -80,7 +81,7 @@ h6 {
         width: 100%;
     }
 }
-
+ */
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -112,7 +113,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-deepCLEM.jpg) no-repeat center center;
+    background: url(../../img/banner-deepCLEM.jpg) no-repeat center center;
     background-size: cover;
 }
 
