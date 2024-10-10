@@ -1,6 +1,6 @@
 ---
 layout: page_research
-img: SPAOM24-scaled.svg
+img: SPAOM24-scaled.jpg
 category: Research
 title: SPAOM 2024
 description: |
