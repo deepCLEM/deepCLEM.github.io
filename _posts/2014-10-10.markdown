@@ -1,5 +1,5 @@
 ---
-layout: page_research
+layout: default
 img: Banner-CASEIB_v5-4.png
 category: Research
 title: CASEIB 2024
