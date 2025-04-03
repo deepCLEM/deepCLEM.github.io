@@ -6,7 +6,7 @@
     <div class="content-section-a">
 
         <div class="row text-center">
-            <h1>Upcoming Events</h1>
+            <h1> News </h1>
             <br/>
         </div>
 
@@ -19,6 +19,25 @@
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
                 </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                  <img class="img-responsive" src="../img/research/{{ post.img }}" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <div class="lead">{{ post.content }}</div>
+                </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="../img/research/{{ post.img }}" alt="">
                 </div>
@@ -26,17 +45,17 @@
 
         </div>
         <!-- /.container -->
-
     </div>
-    <!-- /.content-section-a -->
+    <!-- /.content-section-b -->
+   
     {% else %}
 
-    <div class="content-section-b">
+    <div class="content-section-a">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
@@ -51,7 +70,7 @@
         <!-- /.container -->
 
     </div>
-    <!-- /.content-section-b -->
+    <!-- /.content-section-a -->
     {% endif %}
 {% endfor %}
 </section>
