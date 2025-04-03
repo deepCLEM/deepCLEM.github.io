@@ -1,8 +1,0 @@
----
-layout: page_research
-img: SPIE25.jpg
-category: Research
-title: SPIE Optical Metrology
-description: |
----
-  The deepCLEM team will be in attendance at the 2025 SPIE Optical Metrology Meeting ([SPIE](https://https://www.spie.org/om104)), taking place in Munich (Germany) from 23th to 26th June. Conference: Multimodal Sensing and Artificial Intelligence for Sustainable Future.
