@@ -3,13 +3,13 @@
 {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 
+    <div class="row text-center">
+        <h1>News & Events</h1>
+        <br/>
+    </div>
+
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
-
-        <div class="row text-center">
-            <h1>News & Events</h1>
-            <br/>
-        </div>
 
         <div class="container">
 
@@ -53,6 +53,7 @@
 
     </div>
     <!-- /.content-section-b -->
+     
     {% endif %}
 {% endfor %}
 </section>
