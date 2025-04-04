@@ -3,18 +3,16 @@
 <div class="row text-center">
     <h1>News & Events</h1>
     <br/><br/>
-
-    {% for post in site.posts %}
-        <div class="row">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">{{ post.title }}</h2>
-        </div>
-    {% endfor %}
 </div>
 
 
+{% for post in site.posts %}
+<div class="row">
+    <hr class="section-heading-spacer">
+    <div class="clearfix"></div>
+    <h2 class="section-heading">{{ post.title }}</h2>
 </div>
+{% endfor %}
 
 
 <!--{% for post in site.posts reversed %}
