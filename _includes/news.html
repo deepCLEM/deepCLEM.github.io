@@ -1,9 +1,10 @@
 <section id="news">
 <!-- Page Content -->
-<div class="row text-center">
-    <h1>News & Events</h1>
-    <br/>
-</div>
+<div class="container">
+    <div class="row text-center">
+        <h1>News & Events</h1>
+        <br/>
+    </div>
 
 {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -56,4 +57,5 @@
 
     {% endif %}
 {% endfor %}
+</div>
 </section>
