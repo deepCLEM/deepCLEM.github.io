@@ -1,5 +1,4 @@
 ---
-layout: default
 img: SPIE.png
 category: Research
 title: SPIE Optical Metrology Meeting
