@@ -1,17 +1,20 @@
 <section id="news" class="content-section-a">
 <!-- Page Content -->
-<div class="row text-center">
-    <h1>News & Events</h1>
-    <br/><br/>
+<div class="container">
+    <div class="row text-center">
+        <h1>News & Events</h1>
+        <br/><br/>
+    </div>
 </div>
-
 
 {% for post in site.posts %}
-<div class="row">
-    <hr class="section-heading-spacer">
-    <div class="clearfix"></div>
-    <h2 class="section-heading">{{ post.title }}</h2>
-</div>
+    <div class="container">
+        <div class="row">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">{{ post.title }}</h2>
+        </div>
+    </div>
 {% endfor %}
 
 
