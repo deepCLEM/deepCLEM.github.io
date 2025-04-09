@@ -5,16 +5,21 @@
         <h1>News & Events</h1>
         <br/><br/>
     </div>
+
+    {% for post in site.posts %}
+        <div class="container">
+            <div class="row">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2> POST</h2> 
+            </div>
+        </div>
+    {% endfor %}
+
+
 </div>
 
-{% for post in site.posts %}
-    <div class="container">
-        <div class="row">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-        </div>
-    </div>
-{% endfor %}
+
 
 
 <!--{% for post in site.posts reversed %}
