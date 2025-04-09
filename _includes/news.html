@@ -6,11 +6,12 @@
         <br/><br/>
     </div>
 
-    {% for post in site.news reversed %}
+    {% for post in site.posts reversed %}
         <div class="row">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2> POST</h2> 
+            <h2 class="section-heading">{{ post.title }}</h2>
+             <div class="lead">{{ post.content }}</div>
         </div>
     {% endfor %}
 
